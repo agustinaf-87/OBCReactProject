@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+//encima de nuestro css añadimos boostrap
+import "boostrap/dist/css/boostrap.css";
+//! importante los estilos propios deben ir debajo de boostrap para q no los pise
 import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -7,6 +7,7 @@ import Ejemplo1 from './hooks/Ejemplo1';
 import Ejemplo2 from './hooks/Ejemplo2';
 import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
+import GreetingStyle from './components/pure/greetingStyle';
 
 function App() {
   return (
@@ -17,17 +18,18 @@ function App() {
         {/*<Greeting name={"Agustina"}/>*/}
         {/*<GreetingF name="Agustina"></GreetingF>*/}
         {/*Componente de listado de tareas */}
-        {/*<TaskListComponent></TaskListComponent>*/}
+        {/* <TaskListComponent></TaskListComponent> */}
         {/*ejemplos de usos de hook*/}
         {/*<Ejemplo1></Ejemplo1>*/}
         {/*<Ejemplo2></Ejemplo2>*/}
         {/* <MiComponenteConContexto></MiComponenteConContexto> */}
-        <Ejemplo4 nombre ="agustina">
         {/*todo lo que hay aqui dentro, es tratado como props.children*/}
+        {/* <Ejemplo4 nombre ="agustina">
           <h3>
             Contenido del props.children
           </h3>
-        </Ejemplo4>
+        </Ejemplo4> */}
+        <GreetingStyle name="Agustina"></GreetingStyle>
       </header>
     </div>
   );

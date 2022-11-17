@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Task } from '../models/task.class';
 import { LEVELS } from '../models/level.enum';
 import TaskComponent from '../components/pure/task';
+import "../styles/task.scss"
 
 
 const TaskListComponent = () => {

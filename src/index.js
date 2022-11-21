@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 //encima de nuestro css añadimos boostrap
 import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap-icons/font/bootstrap-icons.css";
 //! importante los estilos propios deben ir debajo de boostrap para q no los pise
 import './index.css';
 

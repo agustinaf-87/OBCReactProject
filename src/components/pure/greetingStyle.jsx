@@ -15,16 +15,12 @@ const GreetingStyle = (props) => {
 
     const [logged, setLogged] = useState(false);
 
-    const greetingUser = ()=> (<p>Hola, {props.name}</p>)
-
-    const pleaseLogin = () => (<p> Please, login </p>)
-
     return (
         <div style={logged ? loggedStyle : unloggedStyle}>
         {logged ? 
-            greetingUser
+            <p>Hola, {props.name}</p>
             : 
-            pleaseLogin }
+            <p> Please, login </p> }
             
             <button onClick={()=>{
                 console.log("boton pulsado");

@@ -12,8 +12,8 @@ import GreetingStyle from './components/pure/greetingStyle';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header"> */}
+        
         {/*Componente ejemplo funcional y de clase */}
         {/*<Greeting name={"Agustina"}/>*/}
         {/*<GreetingF name="Agustina"></GreetingF>*/}
@@ -29,10 +29,10 @@ function App() {
             Contenido del props.children
           </h3>
         </Ejemplo4> */}
-        <GreetingStyle name="Agustina"></GreetingStyle>
-      </header>
+        {/* <GreetingStyle name="Agustina"></GreetingStyle> */}
+      {/* </header> */}
+      <TaskListComponent></TaskListComponent>
     </div>
   );
 }
-
 export default App;

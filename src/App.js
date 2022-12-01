@@ -33,8 +33,8 @@ function App() {
         {/* <GreetingStyle name="Agustina"></GreetingStyle> */}
       {/* </header> */}
       {/*gestion de eventos */}
-      <Father></Father>
-      {/* <TaskListComponent></TaskListComponent> */}
+      {/* <Father></Father> */}
+      <TaskListComponent></TaskListComponent> 
     </div>
   );
 }

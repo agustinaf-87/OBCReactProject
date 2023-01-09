@@ -1,10 +1,10 @@
 import React, {useState, useEffect}from 'react';
 import PropTypes from 'prop-types';
-import { Task } from '../models/task.class';
-import { LEVELS } from '../models/level.enum';
-import TaskComponent from '../components/pure/task';
+import { Task } from '../../models/task.class';
+import { LEVELS } from '../../models/level.enum';
+import TaskComponent from '../pure/task';
 import "../styles/task.scss"
-import TaskForm from '../components/pure/forms/taskForm';
+import TaskForm from '../pure/forms/taskForm';
 
 
 const TaskListComponent = () => {

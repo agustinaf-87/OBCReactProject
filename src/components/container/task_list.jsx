@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Task } from '../../models/task.class';
 import { LEVELS } from '../../models/level.enum';
 import TaskComponent from '../pure/task';
-import "../styles/task.scss"
+import "../../styles/task.scss"
 import TaskForm from '../pure/forms/taskForm';
 
 

@@ -9,6 +9,7 @@ import MiComponenteConContexto from './hooks/Ejemplo3';
 import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyle from './components/pure/greetingStyle';
 import OptionalRender from "./components/pure/OptionalRender";
+import LoginFormik from './components/pure/forms/loginFormik';
 
 function App() {
   return (
@@ -36,8 +37,10 @@ function App() {
       {/* <Father></Father> */}
       {/* EJEMPLOS DE  RENDERIZADO CONDICIONAL*/}
       {/* <OptionalRender></OptionalRender> */}
+      {/* ejemplo de usos de formik y yup */}
+      <LoginFormik></LoginFormik>
       {/* PROYECTO FINAL */}
-      <TaskListComponent></TaskListComponent> 
+      {/* <TaskListComponent></TaskListComponent>  */}
     </div>
   );
 }

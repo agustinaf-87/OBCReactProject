@@ -10,6 +10,7 @@ import Ejemplo4 from './hooks/Ejemplo4';
 import GreetingStyle from './components/pure/greetingStyle';
 import OptionalRender from "./components/pure/OptionalRender";
 import LoginFormik from './components/pure/forms/loginFormik';
+import Registerformik from "./components/pure/forms/registerFormik"
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* EJEMPLOS DE  RENDERIZADO CONDICIONAL*/}
       {/* <OptionalRender></OptionalRender> */}
       {/* ejemplo de usos de formik y yup */}
-      <LoginFormik></LoginFormik>
+      {/* <LoginFormik></LoginFormik> */}
+      <Registerformik></Registerformik>
       {/* PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent>  */}
     </div>

@@ -10,6 +10,8 @@ import GreetingStyle from './components/pure/greetingStyle';
 import OptionalRender from "./components/pure/OptionalRender";
 import LoginFormik from './components/pure/forms/loginFormik';
 import Registerformik from "./components/pure/forms/registerFormik"
+import AsyncExample from './components/pure/AsyncExample';
+import ObservableExample from './components/pure/forms/ObservableExample';
 
 function App() {
   return (
@@ -40,6 +42,12 @@ function App() {
       {/* ejemplo de usos de formik y yup */}
       {/* <LoginFormik></LoginFormik> */}
       {/* <Registerformik></Registerformik> */}
+
+        {/* Ejemplos de asincronia */}
+        {/* <AsyncExample/> */}
+        <ObservableExample/>
+
+
       {/* PROYECTO FINAL */}
       {/* <TaskListComponent></TaskListComponent>  */}
     </div>

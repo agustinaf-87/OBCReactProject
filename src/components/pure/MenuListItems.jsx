@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, ListItem, ListItemIcon, ListItemText, ListItemButton } from '@mui/material';
+import { List, ListItemIcon, ListItemText, ListItemButton } from '@mui/material';
 import {Home, Settings } from "@mui/icons-material";
 import { useNavigate } from 'react-router-dom';
 

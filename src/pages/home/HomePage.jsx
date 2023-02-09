@@ -6,13 +6,15 @@ export default function HomePage() {
   const location = useLocation();
   const navigate = useNavigate();
 
+  
+
   console.log("we are in route:", location.pathname)
 
   const handleClick = () => {
     navigate("/profile")
   }
 
-
+  
       return (
         <div>
           <h1>Home Page</h1>
